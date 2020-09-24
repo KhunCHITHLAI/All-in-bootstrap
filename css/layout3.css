@@ -1,0 +1,24 @@
+.column{
+    border: 1px solid black;
+    height: 50px;
+}
+.column1{
+   
+    height: 250px;
+    margin-top: 10px;
+}
+.column2{
+   
+    height: 300px;
+    margin-top: 10px;
+}
+.column3{
+    border: 1px solid black;
+    height: 300px;
+    margin-top: 10px;
+}
+.footer{
+    border: 1px solid black;
+    height: 100px;
+    margin-top: 10px;
+}

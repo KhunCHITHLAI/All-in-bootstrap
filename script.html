@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p id="demo1"></p>
+    <p id="demo"></p>
+    <script>
+        let isEmpty=false;
+        isEmpty? console.log('It Empty'):console.log('It not empty');
+
+        var post={
+
+            data:{
+                id:1,title:'Post 1',text:"Hello Khun chit hlai",author:"Khun",
+            }
+        }
+        var{id,title,text,author}=post.data;
+        console.log(id,title,text,author);
+
+        var fruits=['mango','banana','orange','apple'];
+        for(let fruit of fruits)
+        console.log(fruit);
+
+        const date=new Date().getDate();
+        console.log(date);
+
+        const day=new Date().getDay();
+        console.log(day);
+
+        const month=new Date().getMonth();
+        console.log(month);
+
+        var mon=new Date();
+        document.getElementById("demo1").innerHTML="Date is"+mon.getDay()+"-"+mon.getMonth()+"-"+mon.getFullYear();
+        document.getElementById("demo").innerHTML="Time is:"+mon.getHours()+"-"+mon.getMinutes()+"-"+mon.getSeconds();
+    </script>
+</body>
+</html>

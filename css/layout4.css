@@ -1,0 +1,26 @@
+.column{
+    border: 1px  solid black;
+    height: 50px;
+}
+.column1{
+    border: 1px  solid black;
+    margin-top: 5px;
+    height: 200px;
+}
+.column2{
+    border: 1px  solid red;
+    margin-top: 5px;
+    height: 100px;
+   
+}
+.footer{
+    border: 1px  solid red;
+    margin-top: 5px;
+    height: 200px;
+}
+.footer1{
+    border: 1px  solid green;
+    margin-top: 5px;
+    height: 190px;
+    
+}

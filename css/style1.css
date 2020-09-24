@@ -1,0 +1,15 @@
+.column{
+    border: 1px solid black;
+}
+.bd{
+    border: 1px solid red;
+}
+.dv{
+    background-color: gray;
+}
+.column{
+
+    background-repeat: no-repeat;
+    background-color: red;
+    height: 300px;
+}
